@@ -1,0 +1,33 @@
+.progress-labels {
+	text-align: end;
+	margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+	min-height: 10px;
+	background-color: rgb(44, 44, 44);
+	border-radius: 1rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+.progress-bar-fill {
+	background-color: rgb(0, 157, 255);
+	border-radius: 1rem;
+	min-height: 10px;
+	height: inherit;
+	transform: translateX(-100%);
+	animation: slideToRight 0.3s linear forwards;
+}
+
+@keyframes slideToRight {
+	0% {
+		transform: translateX(-50%);
+	}
+	0% {
+		transform: translateX(-70%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
