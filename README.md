@@ -1,6 +1,8 @@
 # MultiStepForm
 
-A MultiStepForm component built with [your preferred tech stack, e.g., React, Vue, or plain JavaScript]. This project allows users to navigate through multiple steps while filling out a form, maintaining state between steps.
+A MultiStepForm component built with React. This project allows users to navigate through multiple steps while filling out a form, maintaining state between steps.
+
+> TODO: Add validation
 
 ## Features
 
